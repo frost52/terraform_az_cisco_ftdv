@@ -1,8 +1,8 @@
 There is a Terraform template for deploying several FTD appliance with High Availability
-Aproach details here
-https://community.cisco.com/t5/security-documents/high-availability-and-scalability-design-and-deployment-of-cisco/ta-p/4109439
 
-https://www.cisco.com/c/en/us/td/docs/security/firepower/quick_start/azure/ftdv-azure-gsg/ftdv-azure-intro.html
+Aproach details here
++ https://community.cisco.com/t5/security-documents/high-availability-and-scalability-design-and-deployment-of-cisco/ta-p/4109439
++ https://www.cisco.com/c/en/us/td/docs/security/firepower/quick_start/azure/ftdv-azure-gsg/ftdv-azure-intro.html
 
 ## FTD appliance needs additional configuration
 * set outside DNAT
