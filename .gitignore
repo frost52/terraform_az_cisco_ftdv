@@ -1,3 +1,11 @@
+*.tfstate
+*.tfstate.lock.info
+*.tfstate.backup
+*.tfplan
+*.tfvars
+.terraform
+**/.vscode/*
+**/*.tfplan
 # Local .terraform directories
 **/.terraform/*
 
