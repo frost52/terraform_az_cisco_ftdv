@@ -20,4 +20,4 @@ then accept license agreement
 
 ## Example:
  + az account set --subscription 11223344-5566-7788-99aa-bbccddeeff00
- + az vm image terms accept --urn cisco:cisco-ftdv:ftdv-azure-byol:66190.0.0 
+ + az vm image terms accept --urn cisco:cisco-ftdv:ftdv-azure-byol:66191.0.0 

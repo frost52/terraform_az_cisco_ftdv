@@ -19,7 +19,9 @@ resource "azurerm_virtual_machine" "vm_ftdv" {
   availability_set_id              = azurerm_availability_set.avset.id
 
   os_profile {
-    computer_name  = "ftd_vm_${format("%02d", count.index)}"
+    #Linux VM name can't contain "_"
+    #computer_name  = "ftd_vm_${format("%02d", count.index)}"
+    computer_name  = "ftd-vm-${format("%02d", count.index)}"
     admin_username = var.username
     admin_password = var.password
     #to deploy ftd appliance within FMC registration data uncomment following line
@@ -42,7 +44,8 @@ resource "azurerm_virtual_machine" "vm_ftdv" {
     offer     = "cisco-ftdv"
     sku       = "ftdv-azure-byol"
     #actual version at the moment
-    version = "66190.0.0"
+    #version = "66190.0.0"
+    version = "66191.0.0"
   }
 
   plan {
