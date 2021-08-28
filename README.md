@@ -3,6 +3,7 @@
 Aproach details here
 + https://community.cisco.com/t5/security-documents/high-availability-and-scalability-design-and-deployment-of-cisco/ta-p/4109439
 + https://www.cisco.com/c/en/us/td/docs/security/firepower/quick_start/azure/ftdv-azure-gsg/ftdv-azure-intro.html
++ https://www.cisco.com/c/en/us/td/docs/security/firepower/quick_start/azure/ftdv-azure-gsg/ftdv-azure-fmc.html
 
 ## FTD appliance needs additional configuration
 * set outside DNAT
