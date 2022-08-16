@@ -1,4 +1,4 @@
-## There is a Terraform template for deploying several FTD appliance with High Availability
+## There is a Terraform template for deploying several FTD appliances with High Availability
 
 Approach details here
 + https://community.cisco.com/t5/security-documents/high-availability-and-scalability-design-and-deployment-of-cisco/ta-p/4109439
@@ -13,10 +13,10 @@ Approach details here
 * accept ssh connection from azure-lb-utility-ip (168.63.129.16) on inside interface ( for iLB probe check )
 
 ## To accept Cisco FTDv legal terms use following Azure CLI commands
-set subscription ID if your accout has several subscriptions
+set a subscription ID if your accout has several subscriptions
  + az account set --subscription \<subscription_id\> 
  
-then accept license agreement
+and accept the license agreement
  + az vm image terms accept --urn \<publisher\>:\<offer\>:\<sku\>:\<version\>
 
 ## Example:
